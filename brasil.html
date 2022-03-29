@@ -7,7 +7,8 @@
     <title>Notícias cidade - Seu site de notícias</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
+
     <!---Logo , barra de navegação e cabeçalho-->
     <div id="container">
         <div id="topo">
@@ -24,8 +25,116 @@
 
 
             </ul>
-        </div>
+        </div> <!--Fim Topo-->
+        <!--Início conteudo-->
+        <div id="conteudo">
 
+            <!--Inicio do conteudo primario-->
+        <div id="primario">
+
+            <div class="caixa destaque">
+                <h2>Destaque</h2>
+                <div class="caixa-conteudo">
+                    <h3>Nova legislação</h3>
+                    <img class="imagem-principal" src="image/mundo.jpg" width="100%">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="">Leia mais!</a>
+                </div>
+            </div>
+
+            <!--Inicio do conteudo Mundo-->
+
+            <div class="caixa">
+                <h2>Mundo</h2>
+                <div class="caixa-conteudo">
+                   <ul id="lista-noticias">
+                       <li>
+                         <a href=""><img src="image/cidade.jpg" width="80">
+                        <h3>Parlamento Aprova...</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur....</p>
+                         </a>
+                       </li>
+
+                       <li>
+                        <a href=""><img src="image/taxi.jpg" width="80">
+                       <h3>Aumento na gasolina afeta economia</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur....</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href=""><img src="image/politico.webp" width="80">
+                       <h3>Bolsonaro entregar MEC ao centrão seria uma "vergonha" diz Malfaia</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur....</p>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href=""><img src="image/covid.jpg" width="80">
+                       <h3>Brasil chega a 659 mil mortes por Covid</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur....</p>
+                        </a>
+                      </li>
+
+
+
+
+                   </ul>
+                </div>
+            </div> <!--Final do conteudo Mundo-->
+
+        </div> <!--Final do conteudo primario-->
+
+        
+       
+
+        <!--Inicio do conteudo lateral-->
+        <div id="lateral">
+
+            <div class="caixa">
+                <h2>Entrevistas</h2>
+                <div class="caixa-conteudo">
+
+                    <ul>
+                        <li><a href="">Michael Ayres</a></li>
+                        <li><a href="">Luan Almeida</a></li>
+                        <li><a href="">José Rodrigues</a></li>
+                        <li><a href="">Felipe Silva</a></li>
+                        <li><a href="">Renato Rodrigues</a></li>
+                        <li><a href="">Willian Ayres</a></li>
+                        <li><a href="">Anahi Borh</a></li>
+                        <li><a href="">Fernando Weiss</a></li>
+
+                    </ul>
+                </div>
+            </div>
+             
+             <!--Inicio do conteudo New E-mail-->
+            <div class="caixa">
+                <h2>News</h2>
+                <div class="caixa-conteudo">
+                    <form>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
+                        </div>
+
+                        <div>
+                            <input class="submit" type="submit" value="Cadastrar">
+                        </div>
+                    </form>
+
+                </div>
+            </div>  <!--Fim do conteudo New E-mail-->
+         
+        </div> <!--Fim do conteudo Lateral-->
+
+    </div> <!--Fim do conteudo-->
+    </div> <!--Fim container-->
+    <div id="container-rodape" style="clear: both;">
+      <div id="rodape">
+         &copy; Copyright 2000-2022 Notícias cidade
+      </div>
     </div>
     
 </body>
