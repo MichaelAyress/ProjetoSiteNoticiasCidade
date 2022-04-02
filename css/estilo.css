@@ -125,6 +125,12 @@ body.fotos #navegacao a#fotos {
 }
 
 /*caixa*/
+
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
 .caixa {
     margin: 10px 0;
     padding: 5px;
@@ -241,6 +247,7 @@ h3 {
 
 #lista-noticias li a p {
     font-size: 0.7em;
+    color: #000;
 }
 
 #lista-noticias li:hover {
